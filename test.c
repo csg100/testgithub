@@ -2,3 +2,6 @@
 
 void main() {
 }
+
+static int do() {
+}
