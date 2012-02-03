@@ -7,6 +7,4 @@ static int do() {
 }
 
 // Some comments
-
-
 //One more comments
