@@ -1,0 +1,10 @@
+{application, test,
+[
+  {description, "Test application"},
+  {vsn, "0.1"},
+  {modules,[test, test_app, test_sup]},
+  {registered, []},
+  {applications, [kernel, stdlib, sasl]}, 
+  {mod, {test_app, []}},
+  {env, []}
+]}.
